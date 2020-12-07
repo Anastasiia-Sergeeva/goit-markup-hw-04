@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;500;700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="/images/sprite.svg">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body">
@@ -32,8 +33,19 @@
     
        <address class="top-address">
             <ul class="top-address-list">
-           <li class="item"><a class="header-mail current" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-           <li class="item"><a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+           <li class="item">
+               <a class="top-address-link" href="mailto:info@devstudio.com"> 
+                   <svg class="adress-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+               
+            </li>
+           <li class="item">
+               <a class="top-address-link" href="tel:+380961111111">
+                   <svg class="adress-icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a>
+            </li>
             </ul>
        </address>
     
@@ -43,28 +55,28 @@
     <!-- Герой -->
     <main class="main-page">
         <section class="hero">
-            
+
             <h1 class="main-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button class="main-btn"  type="button">Заказать услугу</button>
-           
+        
         </section>
         <!-- Особенности-->
         <section class="main-information">
             <div class="container">   
          <ul class="main-info-item">
-        <li class="main-info-link">
+        <li class="main-info-link icon-antenna">
             <h2 class="main-info-title">Внимание к деталям</h2>
             <p class="main-info-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li  class="main-info-link">
+        <li  class="main-info-link icon-clock">
         <h2  class="main-info-title">Пунктуальность</h2>
         <p class="main-info-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li  class="main-info-link">
+        <li  class="main-info-link icon-diagram">
             <h2  class="main-info-title">Планирование</h2>
             <p class="main-info-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li  class="main-info-link">
+        <li  class="main-info-link icon-astronaut">
             <h2  class="main-info-title">Современные технологии</h2>
             <p class="main-info-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 
@@ -96,22 +108,94 @@
                 <img class="team-list-img" src="./images/img11.jpg" alt="Фото Игоря Демьяненко" width="270">
                 <h3 class="team-icon">Игорь Демьяненко</h3>
                 <p class="team-description"  lang="en">Product Designer</p>
+                <ul class="social-list">
+                    <li class="social-list item">
+                        <a class="social-list_link" href="">
+                            <svg class="social-list_icons">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                 <li class="social-list item">
+                <a class="social-list_link" href="">
+                    <svg class="social-list_icons">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+                 </li>
+                    <li class="social-list item">
+                        <a class="social-list_link" href="">
+                            <svg class="social-list_icons">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list_link" href="">
+                            <svg class="social-list_icons">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class="team-list-item">
                 <img  class="team-list-img" src="./images/img-1.jpg" alt="Фото Ольги Репиной" width="270">
                 <h3 class="team-icon">Ольга Репина</h3>
                 <p class="team-description"  lang="en">Frontend Developer</p>
+                <ul class="social-list">
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                </ul>
              </li>
                  
              <li class="team-list-item"> 
                 <img  class="team-list-img" src="./images/img-2.jpg" alt="фото Николай Тарасова" width="270">
                 <h3 class="team-icon">Николай Тарасов</h3>
                 <p class="team-description" lang="en">Marketing</p>
+                <ul class="social-list">
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                    <li class="social-list item">
+                        <a class="social-list-link" href=""></a>
+                    </li>
+                </ul>
             </li>
             <li class="team-list-item">
             <img  class="team-list-img" src="./images/img-3.jpg" alt="фото Михаила Ермакова" width="270">
             <h3 class="team-icon">Михаил Ермаков</h3>
             <p class="team-description"  lang="en">UI Designer</p>
+            <ul class="social-list">
+                <li class="social-list item">
+                    <a class="social-list-link" href=""></a>
+                </li>
+                <li class="social-list item">
+                    <a class="social-list-link" href=""></a>
+                </li>
+                <li class="social-list item">
+                    <a class="social-list-link" href=""></a>
+                </li>
+                <li class="social-list item">
+                    <a class="social-list-link" href=""></a>
+                </li>
+            </ul>
             </li>
         </ul>
         </div>
@@ -129,10 +213,10 @@
               <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
           </li>
              <li class="item">
-                <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="top-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="item">
-        <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="top-address-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
       </ul>  
     </address> 
