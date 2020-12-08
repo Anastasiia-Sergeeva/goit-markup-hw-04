@@ -20,8 +20,11 @@ ul {
 }
 /* <=== nav btn ===> */
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  box-sizing: border-box;
+  padding: 94px 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .auto-nav-list {
   display: flex;
@@ -65,21 +68,24 @@ ul {
   margin-right: 0;
 }
 .element {
-  display: block;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom-right-radius: 1px;
-  border-bottom-left-radius: 1px;
-  overflow: hidden;
+}
+.card-link {
+  display: block;
+  width: 370px;
+  height: 404px;
+
+  background: #ffffff;
+  box-sizing: border-box;
 }
 .text {
   padding: 20px 24px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  border-bottom-right-radius: 1px;
-  border-bottom-left-radius: 1px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .project-list-img {
   display: block;
@@ -109,16 +115,10 @@ ul {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  color: #212121;
 }
-.card-link {
-  display: block;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+.card-link:hover,
+.card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
