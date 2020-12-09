@@ -53,7 +53,7 @@ ul {
 .button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-  border: 1px solid transparent;
+  border: 1px solid var(--accent-color);
 }
 .address {
   margin-left: auto;
